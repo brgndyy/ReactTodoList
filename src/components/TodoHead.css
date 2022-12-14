@@ -1,0 +1,26 @@
+.head-container{
+
+    height: 140px;
+    border-bottom: 1px solid rgb(219, 219, 219);
+    padding: 30px;
+
+}
+
+.head-container h1{
+    font-size: 36px;
+    margin: 0;
+}
+
+.day{
+    margin-top: 4px;
+    font-size: 21px;
+    color: rgb(130, 130, 130);
+}
+
+.todo-left p{
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(23, 212, 149);
+}

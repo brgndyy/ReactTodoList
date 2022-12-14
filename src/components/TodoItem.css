@@ -1,0 +1,51 @@
+.toDoItem-container{
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    align-items: center;
+    position: relative;
+    border-bottom: 1px solid rgb(205, 205, 205);
+}
+
+.toDoTitle{
+    font-size: 21px;
+
+    display: block;
+    width: 100%;
+}
+.toDoTitle.checked{
+    color: rgb(170, 170, 170);
+}
+
+
+.todoCheckBtn.notchecked{
+    margin-top: 4px;
+    font-size: 35px;
+    margin-right: 25px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: gray;
+}
+
+.todoCheckBtn.checked{
+    color: rgb(130, 228, 130);
+    font-size: 40px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.toDoDeleteBtn{
+    position: absolute;
+    right: 0;
+    font-size: 27px;
+    color: rgb(184, 184, 184);
+    opacity: 0;
+    cursor: pointer;
+}
+
+.toDoItem-container:hover
+.toDoDeleteBtn{
+
+    opacity: 1;
+}
+
